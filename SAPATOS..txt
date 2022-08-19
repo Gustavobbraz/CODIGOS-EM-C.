@@ -1,0 +1,51 @@
+#include  <stdio.h> //BIBLIOTECA
+#include <stdlib.h> //BIBLIOTECA
+
+int main() {
+    //DECLARANDO AS VARIAVEIS.
+    int nike, wilson, gucci;
+    //CABECALHO
+    printf("****************************** QUANTIDADE DE SAPATOS EM ESTOQUE ************************************\n\n");
+
+    printf("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\n\n");
+
+    printf("************************* MARCAS NO ESTOQUE: NIKE  WILSON  GUCCI ***********************************\n");
+
+    printf("----------------------------------------------------------------------------------------------------\n");
+
+    //PEDINDO INFORMACAO DO USUARIO.
+
+    printf("INFORME A QUANTIDADE DE SAPATOS DA MARCA NIKE:");
+    scanf("%d", &nike );
+
+    //PEDINDO A INFORMAÃ‡AO DO USUARIO.
+    printf("\nINFORME A QUANTIDADE DE SAPATOS DA MARCA WILSON:\n ");
+    scanf("%d", &wilson);
+
+    //PEDINDO A INFORMAÃ‡AO DO USUARIO.'
+    printf("\nINFORME A QUANTIDADE DE SAPATOS DA MARCA GUCCI:\n ");
+    scanf("%d", &gucci);
+
+    //SAIDA DE DADOS.
+    printf("****************************** QUANTIDADE DE SAPATOS EM ESTOQUE POR MARCA. ************************ \n");
+
+    printf("---------------------------------------------------------------------------------------------------\n\t\t\t\t\t\t NIKE   WILSON   GUCCI\n\t\t\t\t\t \t  %i \t  %i \t  %i\n --------------------------------------------------------------------------------------------------",nike, wilson, gucci);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}

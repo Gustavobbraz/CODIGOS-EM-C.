@@ -1,0 +1,48 @@
+#include <stdlib.h> //BIBLIOTECA
+#include <stdio.h>  //BIBLIOTECA
+
+//INICIO DO CODIGO
+int main() {
+    //DECLARANDO VARIAVEIS.
+    int c_suspeitos, c_confirmados, c_mortes;
+    int total;
+    //CABECALHO.
+    printf("-------------------------------------------\n " "DADOS DA PESQUISA REALIZADA PELO MINISTERIO DA SAUDE EM PARCERIA COM SECRETARIA DE SAUDE MUNICIPAL. \n " "--------------------------------------------------\n");
+
+    //PEDINDO INFORMACAO DO USUARIO.
+    printf("INFORME O NUMERO DE CASOS SUSPEITOS:  ");
+    scanf("%d", &c_suspeitos);
+
+    //PEDINDO INFORMACAO DO USUARIO.
+    printf("\nINFORME O NUMERO DE CASOS CONFIRMADOS:");
+    scanf("%d", &c_confirmados);
+
+    //PEDINDO INFORMACAO DO USUARIO.
+
+    printf("\nINFORME O NUMERO DE CASOS DE MORTES:");
+    scanf("%d", &c_mortes);
+    printf("\n------------------------------------------------------------------------------------------------\n");
+
+    //PAUSA PARA INICIAR O PROCESSAMENTO DOS DADOS.
+    system("pause");
+
+    //PROCESSANDO DADOS.
+    total =(c_suspeitos + c_confirmados + c_mortes);
+
+    printf("\n--------------------// RESULDADO DA PESQUISA DO MINISTERIO DA SAUDE. //-------\n");
+    //MOSTRANDO O RESULTADO DA PESQUISA / TOTAL DE CASOS.
+    printf("\n                       TOTAL DE CASOS SUSPEITOS:%d\n", c_suspeitos);
+
+    printf("\n                       TOTAL DE CASOS CONFIRMADOS:%d\n ", c_confirmados);
+
+    printf("\n                       TOTAL DE CASOS DE MORTES: %d\n\n", c_mortes);
+
+   printf("--------------------------------------------// RESULTADO TOTAL DE CASOS // --------------------------\n");
+    printf(" \t \t \t \t \t \t TOTAL DE CASOS:%d\n", total);
+
+
+
+    system("pause\n");
+
+    return 0;
+}
